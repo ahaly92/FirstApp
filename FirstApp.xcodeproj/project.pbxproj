@@ -10,8 +10,7 @@
 		9C5BCFA62293831400174013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C5BCFA52293831400174013 /* AppDelegate.swift */; };
 		9C5BCFAD2293831500174013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C5BCFAC2293831500174013 /* Assets.xcassets */; };
 		9C5BCFB02293831500174013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C5BCFAE2293831500174013 /* LaunchScreen.storyboard */; };
-		9CC6713922938BB200B7E83E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6713722938BB200B7E83E /* FirstViewController.swift */; };
-		9CC6713A22938BB200B7E83E /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9CC6713822938BB200B7E83E /* FirstViewController.xib */; };
+		9CC6713922938BB200B7E83E /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CC6713722938BB200B7E83E /* MyTableViewController.swift */; };
 		B1D4EC9EF6A7F164CD1D6C4D /* Pods_FirstApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8C1B7DB637C4693D9E3413F /* Pods_FirstApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,8 +21,7 @@
 		9C5BCFAC2293831500174013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C5BCFAF2293831500174013 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C5BCFB12293831500174013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9CC6713722938BB200B7E83E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		9CC6713822938BB200B7E83E /* FirstViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		9CC6713722938BB200B7E83E /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		B4122CEF4489A7F5BBF7FD8D /* Pods-FirstApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirstApp.release.xcconfig"; path = "Target Support Files/Pods-FirstApp/Pods-FirstApp.release.xcconfig"; sourceTree = "<group>"; };
 		C8C1B7DB637C4693D9E3413F /* Pods_FirstApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirstApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -73,8 +71,7 @@
 				9C5BCFAC2293831500174013 /* Assets.xcassets */,
 				9C5BCFAE2293831500174013 /* LaunchScreen.storyboard */,
 				9C5BCFB12293831500174013 /* Info.plist */,
-				9CC6713722938BB200B7E83E /* FirstViewController.swift */,
-				9CC6713822938BB200B7E83E /* FirstViewController.xib */,
+				9CC6713722938BB200B7E83E /* MyTableViewController.swift */,
 			);
 			path = FirstApp;
 			sourceTree = "<group>";
@@ -149,7 +146,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5BCFB02293831500174013 /* LaunchScreen.storyboard in Resources */,
-				9CC6713A22938BB200B7E83E /* FirstViewController.xib in Resources */,
 				9C5BCFAD2293831500174013 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -209,7 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C5BCFA62293831400174013 /* AppDelegate.swift in Sources */,
-				9CC6713922938BB200B7E83E /* FirstViewController.swift in Sources */,
+				9CC6713922938BB200B7E83E /* MyTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
