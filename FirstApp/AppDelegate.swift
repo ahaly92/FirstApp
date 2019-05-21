@@ -13,18 +13,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
     
-    var navigationController: UINavigationController?
-    var firstViewController: FirstViewController?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         
         window = UIWindow()
-        self.firstViewController = FirstViewController(nibName: "FirstViewController", bundle: nil)
-        self.navigationController = UINavigationController(rootViewController: self.firstViewController!)
+        let tableViewController = MyTableViewController()
+        let navigationController = UINavigationController(rootViewController: tableViewController)
         
-        self.window?.rootViewController = self.navigationController
-        self.window?.makeKeyAndVisible()
+        window?.rootViewController = navigationController
+        window?.makeKeyAndVisible()
         return true
     }
 
